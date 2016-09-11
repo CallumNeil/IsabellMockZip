@@ -1,0 +1,177 @@
+/*
+* Author: Callum McLeman
+* Assignment: WE41 Mobile Web Applications, Digital Skills Academy
+YourFirstname_YourFamilyname_WE41_MWA_2.zip
+* Date : 2016/08/29
+* Refs: (DSA course units)
+loads of look ups on www.w3.com for css info. I spend more time on
+cosmetics than actual 'productive' code! lol
+*/
+body {
+	height: 100%;
+
+}
+
+
+h2 {
+	color: #7e0404;
+	font-size: 3em;
+	font-family: 'Pacifico', cursive;
+	padding-top: .1em;
+	padding-bottom: .2em;
+	z-index: 5;
+			
+}
+
+.head-div {
+	position: relative;
+	width: 100%;
+	height:100px;
+	top: 0px;
+	left: 0;
+	text-align: center;
+	/*background: #000000;*/
+	/*border-bottom: #038ef0 2px solid;*/
+	
+	
+}
+
+.lil-jacko {
+	
+	position: absolute;
+	/*vertical-align: middle;*/
+	padding: 0px;
+	width: 60px;
+	left: 1%;
+	float: left;
+	
+}
+
+.forget-me-not {
+	position: relative;
+	height: 60px;
+	width: 60px;
+	right:1%;
+	
+	float: right;
+}
+
+/*http://stackoverflow.com/questions/2603700/how-to-align-3-divs-left-center-right-inside-another-div
+jquery grouping wasn't up to and/or too time consuming to sort the ui-btn css out :( 
+easier to just roll the sleeves up and get on with it.
+I would of liked to have had a better grounding on the css before starting out on the course
+has cost me brownie points.   Its just i'm so used to haveing a game plan to apply the right tools
+for the job, where as with the css - even working with a 'mental grid layout', I seem to struggle
+with finding the right tool for the job.   Question of time and practice, I know. */
+
+.buttons-three {
+	display: block;
+	padding: 5px;
+	color: #ffffff;
+	font-size: 1.5em;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: .4em;
+	text-align: center;
+}
+.btnz1 {
+	float: left;
+	margin: auto;
+	width: 33%;
+	
+}
+.btnz2 {
+	margin: auto;
+	width: 33%;
+	display: none;
+
+}
+.btnz3 {
+	float: right;
+	margin: auto;
+	width: 33%;
+	display: none;
+	
+}
+
+#myPanel {
+	color:#ffffff;
+	background-color:#2f4c8c;
+}
+.glyph-group {
+	position: relative;
+	font-size: 1.5em;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: .4em;
+	
+}
+.g-g-title {
+	text-align: center;
+	color:#7e0404;
+	font-size: 2em;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 1em;
+}
+.glyph-div {
+	padding:5px;
+}
+.input-to-do {
+	font-size: 1.5em;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: .4em;
+	display: none;
+	
+}
+.list-style {
+	list-style-type: none;
+	color:#ffc50d;
+	font-size: 1.5em;
+	font-family: 'Pacifico', cursive;
+	padding-top: .4em;
+	padding-bottom: .4em;
+	padding: 5;
+	border: 1px solid #ffffff;
+}
+.a-item-style:hover {
+	color:#ffffff;
+	background-color: yellow;
+	font-size: 1em;
+	font-family: 'Pacifico', cursive;
+}
+.a-item-style:focus {
+	color:#ffffff;
+	/*background-color: red;*/
+	font-size: 1em;
+	font-family: 'Pacifico', cursive;
+}
+/*  modal section  - used in assig #2, adapted */
+/* stuff for the 'shadow' and  the modal delete ? y/n */
+#modal-bkground {
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/*background: #000;*/
+	opacity: .5;
+	z-index: 1000;
+	display: none;
+	margin:0;
+	padding:0;
+}
+
+#modal-body {
+	position: fixed;
+	display: none;
+	top: 5%;
+	left: 25%;
+	/*background: #800000;*/
+	border:5px solid #2c3539;
+	border-radius: 5px; 
+	z-index: 1500;
+	padding:5px;
+	width: 50%;
+	height: auto;
+	text-align: center;
+	overflow: hidden;
+} 
+

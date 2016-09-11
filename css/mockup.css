@@ -1,0 +1,75 @@
+/*mockup.css*/
+body {
+	background: #000000;
+}
+.pic-holder {
+	
+	max-height: 100%;
+	max-width: 100%;
+	z-index: 0;
+	
+}
+
+.control {
+	z-index: 5;
+	opacity: .8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background: #000000;
+	height: 85px;
+	padding-top: 7px;
+	
+
+
+}
+.icons {
+	
+	height: 30px;
+	width: 30px;
+	max-height: 50%;
+
+	
+}
+.bitch {
+	
+	height: 45px;
+	width: 45px;
+	
+}
+.ignore {
+	/*position: relative;*/
+	float: left;
+	width: 33%;
+	border-top: #000000 1px solid;
+}
+.audio {
+	 
+	margin: auto;
+	width: 33%;
+	border-top: #000000 1px solid;
+	
+}
+.door {
+	float: right;
+	width: 33%;
+	border-top: #000000 1px solid;
+		
+	
+}
+.speed-text{
+	float: left;
+	width: 50%;
+	border-top: #000000 1px solid;
+	padding-top: 7px;
+	
+	
+}
+.speed-dial {
+	float: right;
+	width: 50%;
+	border-top: #000000 1px solid;
+	
+}
